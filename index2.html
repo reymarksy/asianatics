@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enrollment Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">AICS Enrollment</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+   
+    </ul>
+  </div>
+</nav>
+
+<!-- Banner Section -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>Enroll Now</h1>      
+    <p>Start your journey to success with our comprehensive courses.</p>
+  </div>
+</div>
+
+<!-- Form Section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h2>Registration Form</h2>
+			<form>
+			  <div class="form-group">
+			    <label for="name">Name:</label>
+			    <input type="text" class="form-control" id="name" placeholder="Enter name">
+			  </div>
+			  <div class="form-group">
+			    <label for="email">Email:</label>
+			    <input type="email" class="form-control" id="email" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label for="phone">Phone Number:</label>
+			    <input type="tel" class="form-control" id="phone" placeholder="Enter phone number">
+			  </div>
+			  <div class="form-group">
+			    <label for="course">Course:</label>
+			    <select class="form-control" id="course">
+			    	<option value="">Select a course</option>
+			    	<option value="math">ABM</option>
+			    	<option value="science">ICT</option>
+			    	<option value="history">HUMSS</option>
+			    	<option value="history">GAS</option>
+			    </select>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<h2>Why Choose Us?</h2>
+			<p>Our courses are taught by experienced instructors who are passionate about education.</p>
+			<p>We offer flexible scheduling options to accommodate your busy life.</p>
+			<p>Our curriculum is designed to help you succeed in your academic
